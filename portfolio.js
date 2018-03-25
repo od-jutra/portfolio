@@ -39,7 +39,7 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
     $(".textile").click(function(){
-        $(".answerBox").html("");
+        $(".answerBox").html("...and I'm the only one who wear it.");
     });
 });
 $(document).ready(function(){
