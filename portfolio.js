@@ -18,10 +18,10 @@ $(document).ready(function(){
 // lighten up 
 $(function(){
     $("figure").on({mouseenter: function(){
-      $('#lamp').attr("src","images/lamp2.png");
-      $('#lamp').each(function(){
+      $("#lamp").attr("src","images/lamp2.png");
+      $("#lamp").each(function(){
         var $this = $(this)
-        $this.attr('srcset',$this.attr('srcset').replace('1.png','2.png'))
+        $this.attr("srcset",$this.attr("srcset").replace("1.png","2.png"))
       })
       },
     });
