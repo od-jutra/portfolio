@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="portfolio.js"></script> 
+    <link rel="stylesheet" href="portfolio_style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cairo:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" /> 
+
+</head>
+<body>
+    <!-- sidebar laptop -->
+    <nav class="sidebar">
+        <div class="logo">
+            <svg height="50" width="55">
+                <rect x="10" y="10" rx="20" ry="20" width="35" height="35"
+                style="fill:#EC95A3;;stroke:#4f4f54;stroke-width:3;opacity:1" />
+                <text fill="#45454b" font-size="23" font-family="Cairo" x="18" y="35">IC</text>
+              </svg>
+        </div>
+        <ul>
+            <li> <a class="sideIcons" href="#home"><i class="fas fa-home fa-lg"></i></a></li>
+            <li><a class="sideIcons" href="#works"><i class="fas fa-code fa-lg"></i></a></li>
+            <li> <a class="sideIcons" href="#about"><i class="fas fa-user-circle fa-lg"></i></a></li>
+            <li> <a class="sideIcons" href="#contact"><i class="fas fa-envelope fa-lg"></i></a></li>
+        </ul>
+        <!-- social -->
+        <ul class="social">
+            <li><a class="sideIcons zocial-facebook" href="https://www.facebook.com/igaa.czyz"></a></li>
+            <li><a class="sideIcons zocial-linkedin" href="https://www.linkedin.com"></a></li>
+            <li><a class="sideIcons zocial-github" href="https://github.com/"></a></li>
+        </ul>
+    </nav>
+       <!-- burger for smaller devices -->
+    <div class="burger">
+        <div>
+        <input type="checkbox" id="burgerSlices"> 
+            <span></span>
+            <span></span>
+            <span></span> 
+        </div>
+        <nav class="menuFromBurger"> 
+            <ul>
+                <li><a class="menuItem" href="#home"><i class="fas fa-home fa-lg"></i></a></li> 
+                <li><a class="menuItem" href="#works"><i class="fas fa-code fa-lg"></i></a></li> 
+                <li><a class="menuItem" href="#about"><i class="fas fa-user-circle fa-lg"></i></a></li>
+                <li><a class="menuItem" href="#contact"><i class="fas fa-envelope fa-lg"></i></a></li> 
+            </ul> 
+        </nav>
+    </div>  
+    <!-- home  -->
+    <header id="home">
+        <div class="hey">
+            <figure>
+                <img id="lamp" src="images/lamp1.png"
+                srcset="images/lamp1_small.png 800w, images/lamp1.png 1000w"
+                alt="technical lamp in berry color lightening up when hover the photo.">
+            </figure>
+            <h1 class="hello">Hey.</h1>
+        </div>
+        <h2 class="hello">Nice you've dropped in!</h2>
+        <h3 class="hello">Take a walk through my works</h3>
+    </header>
+    
+    <!-- my works -->
+    <div class="works" id="works">
+        <h2>Works*</h2>
+        <p>* will be here in the future</p>
+        <p>It past 5 months since I hack into the digital world with my first "Hello World" site. This is what I gained till now.</p>
+        <div class="worksBoxes">
+            <div class="workBox"><div class="boxInside">https://www...</div></div>
+            <div class="workBox"><div class="boxInside">https://www...</div></div>
+            <div class="workBox"><div class="boxInside">https://www...</div></div>
+            <div class="workBox"><div class="boxInside">https://www...</div></div>
+            <div class="workBox"><div class="boxInside">https://www...</div></div>
+            <div class="workBox"><div class="boxInside">https://www...</div></div>
+        </div>
+        <hr>
+    </div>
+    <!-- about -->
+    
+    <div class="about">
+        <h2 id="about">About</h2>
+        <div class="answerBox"> <p>Choose a false statement</p></div>
+        <div class="aboutButtons">
+            <button class="aboutStatement fend">I am skilled front-end developer</button>
+            <button class="aboutStatement fun">I can be funny</button>
+            <button class="aboutStatement textile">I am creating textile prints</button>
+            <button class="aboutStatement choco">I eat mostly chocolate</button>
+            <button class="aboutStatement health">I am interested in digital health</button>
+            <button class="aboutStatement gdansk">I am living in Gdansk</button>
+            <button class="aboutStatement ride">I can ride a longboard</button>
+        </div>
+    </div> 
+      
+    <!-- contact -->
+    <div class="contact">
+        <h2 id="contact">Contact</h2>
+        <p>Feel free to write me about all kinds of bugs found on this website</p>
+        <button class="mail">Mail me</button>
+    </div>
+    <div class="footer">
+        <a class="bottomIcons zocial-facebook" href="https://www.facebook.com/igaa.czyz"></a>
+        <a class="bottomIcons zocial-linkedin" href="https://www.linkedin.com"></a>
+        <a class="bottomIcons zocial-github" href="https://github.com/"></a>  
+    </div>
+</body>
+</html>
